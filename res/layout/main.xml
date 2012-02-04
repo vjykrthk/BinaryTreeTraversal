@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/targetTitle"
+		android:id="@+id/target_id" android:layout_alignTop="@+id/editTarget" />
+	<EditText android:layout_width="fill_parent" android:id="@+id/editTarget"
+		android:layout_alignParentTop="true" android:layout_height="wrap_content"
+		android:text="" android:layout_toRightOf="@+id/target_id"
+		android:layout_marginLeft="3dp" />
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/col1Title"
+		android:id="@+id/col1_id" android:layout_below="@+id/target_id"
+		android:layout_alignTop="@+id/editCol1" />
+	<EditText android:layout_width="fill_parent" android:id="@+id/editCol1"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_toRightOf="@+id/col1_id" android:layout_below="@+id/editTarget"
+		android:layout_alignLeft="@+id/editTarget" />
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/col2Title"
+		android:id="@+id/col2_id" android:layout_below="@+id/col1_id"
+		android:layout_alignTop="@+id/editCol2" />
+	<EditText android:layout_width="fill_parent" android:id="@+id/editCol2"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_toRightOf="@+id/col2_id" android:layout_below="@+id/editCol1"
+		android:layout_alignLeft="@+id/editTarget" />
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/col3Title"
+		android:id="@+id/col3_id" android:layout_below="@+id/col2_id"
+		android:layout_alignTop="@+id/editCol3" />
+	<EditText android:layout_width="fill_parent" android:id="@+id/editCol3"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_toRightOf="@+id/col3_id" android:layout_below="@+id/editCol2"
+		android:layout_alignLeft="@+id/editTarget" />
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/target_button_id"
+		android:text="@string/targetTitle" android:layout_below="@+id/editCol3"
+		android:layout_alignLeft="@+id/editCol3" />
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/col1_button_id"
+		android:text="@string/col1Title" android:layout_below="@+id/editCol3"
+		android:layout_toRightOf="@+id/target_button_id" />
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/col2_button_id"
+		android:text="@string/col2Title" android:layout_below="@+id/editCol3"
+		android:layout_toRightOf="@+id/col1_button_id" />
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/col3_button_id"
+		android:text="@string/col3Title" android:layout_below="@+id/editCol3"
+		android:layout_toRightOf="@+id/col2_button_id" />
+
+</RelativeLayout>

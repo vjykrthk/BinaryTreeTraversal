@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Binary Tree</string>
+	<string name="targetTitle">Target</string>
+	<string name="col1Title">Col1</string>
+	<string name="col2Title">Col2</string>
+	<string name="col3Title">Col3</string>
+</resources>

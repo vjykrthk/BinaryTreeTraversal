@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="rootvalue">28</string>
+	<integer-array name="nodevalues">
+		<item>40</item>
+		<item>34</item>
+		<item>29</item>
+		<item>20</item>
+		<item>78</item>
+		<item>13</item>
+		<item>45</item>
+		<item>67</item>
+		<item>22</item>
+		<item>21</item>
+		<item>80</item>
+		<item>42</item>
+		<item>37</item>
+		<item>17</item>
+		<item>14</item>
+		<item>19</item>
+	</integer-array>
+</resources>
